@@ -4,9 +4,9 @@ This program organizes automatically files in folders named as file's extension
 
 ## How to use the code
 
- 1. Open file  `main.py`
+To run file  `main.py`
 
- 2. Open `terminal` 
+ 1. Open `terminal` 
  
             cd ./directory
       or `cmd` 
@@ -16,19 +16,19 @@ This program organizes automatically files in folders named as file's extension
 
       and goto directory where you've saved folder downloaded containing this program
 
- 3. Run python file with command-line or with your code editor digiting: 
+ 2. Run python file with command-line or with your code editor digiting: 
       
          python3 main.py
 
- 4. If program doesn't works well probably you don't have modules installed so check if:
+ 3. If program doesn't works well probably you don't have modules installed so check if:
     - `shutil` is installed
     - `os` is installed
     - `pathlib` is installed
     - `easygui` is installed
- 5. And if are not installed you must install these digiting:
+ 4. And if are not installed you must install these digiting:
 
         pip3 install `module's name`
- 6. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
+ 5. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
     
 ## How program works
 
