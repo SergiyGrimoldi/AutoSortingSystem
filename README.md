@@ -1,4 +1,4 @@
-# **Auto Sorting System by Sergiy Grimoldi**
+# **Auto Sorting System by Sergiy Grimoldi - V.0.0.2**
 
 This program organizes automatically files in folders named as file's extension 
 
