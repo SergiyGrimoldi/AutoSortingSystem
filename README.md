@@ -45,5 +45,6 @@ If you want this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com)
 If you want other programs [Contact Me](mailto:grimo.sergiy@icloud.com) or check on my profile if it does'not already exsist.
 
 ## Tips
-
-If you want costumize the program please [Contact Me](mailto:grimo.sergiy@icloud.com), I am not responsible for all the changes
+The program is very easy to modified in variables and actions but:
+- ***If you want costumize the program please [Contact Me](mailto:grimo.sergiy@icloud.com)***
+- ***I am not responsible for all the changes***
