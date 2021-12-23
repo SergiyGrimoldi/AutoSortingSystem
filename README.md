@@ -29,6 +29,12 @@ This program organizes automatically files in folders named as file's extension
     - `shutil` is installed
     - `os` is installed
     - `pathlib` is installed
+ 5. Elif are not installed:
+    
+    
+    pip3 install shitil
+    pip3 install pathlib
+    pip3 install os
     
 ## How program works
 
