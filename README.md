@@ -1,4 +1,4 @@
-# AutomaticFolderOrganizer
+# **Auto Sorting System by Sergiy Grimoldi**
 
 This program organizes automatically files in folders named as file's extension 
 
