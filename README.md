@@ -22,7 +22,8 @@ This program organizes automatically files in folders named as file's extension
       and goto directory where you've saved folder downloaded containing this program
 
  3. Run python file with command-line or with your code editor digiting: 
-      > python3 main.py
+      
+         python3 main.py
 
 ## How program works
 
