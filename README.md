@@ -29,10 +29,10 @@ This program organizes automatically files in folders named as file's extension
     - `shutil` is installed
     - `os` is installed
     - `pathlib` is installed
- 5. Elif are not installed:
+ 5. And if are not installed:
 
         pip3 install `module's name`
-    
+ 6. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
     
 ## How program works
 
