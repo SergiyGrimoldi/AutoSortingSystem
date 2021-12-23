@@ -5,13 +5,8 @@ This program organizes automatically files in folders named as file's extension
 ## How to use the code
 
  1. Open file  `main.py`
- 2. Got to line ***25***
-      and insert your directory. (This must be the directory contains all the files to be sorted). Remember keeps quotation marks
 
-      > directory_to_scan = "/Your/Full/Directory/To/Scan"
-
-
- 3. Open `terminal` 
+ 2. Open `terminal` 
  
             cd ./directory
       or `cmd` 
@@ -29,6 +24,7 @@ This program organizes automatically files in folders named as file's extension
     - `shutil` is installed
     - `os` is installed
     - `pathlib` is installed
+    - `easygui` is installed
  5. And if are not installed:
 
         pip3 install `module's name`
