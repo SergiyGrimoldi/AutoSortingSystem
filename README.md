@@ -17,5 +17,6 @@ This program gets all file in directory choosen, automatically gets the extensio
 
 ## Note
 
-This program does not replace files if these already exists in subdirectory named as extension of files found
+This program does not replace files if these already exists in subdirectory named as extension of files found.
+
 If you wont this feature [Contact Me](mailto:grimo.sergiy@icloud.com)
