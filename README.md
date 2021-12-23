@@ -9,3 +9,4 @@ and insert your directory. (This this must be the directory contains all the fil
 
 > directory_to_scan = "/Your/Full/Directory/To/Scan" ## da modificare in base alla direcotry della quale si vule fare un backup
 
+# How program works
