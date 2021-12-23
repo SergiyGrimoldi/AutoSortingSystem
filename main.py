@@ -1,6 +1,7 @@
 import shutil # per gestire lo spostamento e la creazione di directory
 import os # per gestire il sistema operativo
 import pathlib # per gestire le directory
+import easygui # per ask open dir
 from typing import Counter # per counter
 
 
@@ -22,7 +23,7 @@ def divide(): ## Qui parte la funzione di smistamento automatico
         print("\n\n\n ------------------------- Benvenuto nel sitema automatico di smistamento file creata da Sergiy Grimoldi - Welcome to Auto Sorting System by Sergiy Grimoldi -------------------------\n\n\n") # Titolo
         print("Sistema operativo - OS:\n - Unix\n") # sistema operativo sul quel lavoro
 
-    directory_to_scan = "/Your/Full/Directory/To/Scan" ## da modificare in base alla direcotry che si vuole riordinare
+    directory_to_scan =  easygui.diropenbox()## da modificare in base alla direcotry che si vuole riordinare
   
     if directory_to_scan == "/Your/Full/Directory/To/Scan": # controllo se la dirctory da analizzare è stata settata correttamente
         print("Prima configura il programma scegliendo una directory da scansionare e riordinare (Linea 25 nel codice) - Firts choose directory to scan and sort (Line 25 in code)") # stampa di info
