@@ -14,3 +14,8 @@ and insert your directory. (This this must be the directory contains all the fil
 This program gets all file in directory choosen, automatically gets the extension of these, check if exists a folder named as file extension;
    - If folder exists puts file in this
    - Else creates it and puts file in this
+
+## Note
+
+This program does not replace files if these already exists in subdirectory named as extension of files found
+If you wont this feature [Contact Me](mailto:grimo.sergiy@icloud.com)
