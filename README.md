@@ -7,7 +7,7 @@ This program organizes automatically files in folders named as file's extension
 Got to line ***25***
 and insert your directory. (This this must be the directory contains all the files to be sorted)
 
-> directory_to_scan = "/Your/Full/Directory/To/Scan" ## da modificare in base alla direcotry della quale si vule fare un backup
+> ddirectory_to_scan = "/Your/Full/Directory/To/Scan" ## da modificare in base alla direcotry che si vuole riordinare
 
 ## How program works
 
