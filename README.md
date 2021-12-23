@@ -8,7 +8,17 @@ This program organizes automatically files in folders named as file's extension
  2. Got to line ***25***
       and insert your directory. (This this must be the directory contains all the files to be sorted)
 
-      > directory_to_scan = "/Your/Full/Directory/To/Scan" ## da modificare in base alla direcotry che si vuole riordinare
+      > directory_to_scan = "/Your/Full/Directory/To/Scan"
+
+
+ 3. Open `terminal` 
+           > cd ./directory
+      or `cmd` 
+           > dir ./directory
+      and goto directory where you've saved folder downloaded containing this program
+
+ 3. Run python file with command-line or with your code editor digiting: 
+      > python3 main.py
 
 ## How program works
 
