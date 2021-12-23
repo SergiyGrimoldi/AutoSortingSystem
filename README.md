@@ -32,7 +32,7 @@ This program organizes automatically files in folders named as file's extension
  5. And if are not installed:
 
         pip3 install `module's name`
- 6. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com?subject=[GitHub - Problema con programma])
+ 6. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com subject=[GitHub - Problema con programma])
     
 ## How program works
 
@@ -44,6 +44,6 @@ This program gets all file in directory choosen, automatically gets the extensio
 
 This program does not replace files if these already exists in subdirectory named as extension of files found.
 
-If you want this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com ?subject=[GitHub - Nuova feature])
+If you want this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com subject=[GitHub - Nuova feature])
 
-If you want other programs [Contact Me](mailto:grimo.sergiy@icloud.com?subject=[GitHub - Voglio altri progetti]) or check on my profile if it does'not already exsist.
+If you want other programs [Contact Me](mailto:grimo.sergiy@icloud.com subject=[GitHub - Voglio altri progetti]) or check on my profile if it does'not already exsist.
