@@ -6,7 +6,7 @@ This program organizes automatically files in folders named as file's extension
 
  1. Open file  `main.py`
  2. Got to line ***25***
-      and insert your directory. (This this must be the directory contains all the files to be sorted)
+      and insert your directory. (This must be the directory contains all the files to be sorted)
 
       > directory_to_scan = "/Your/Full/Directory/To/Scan"
 
