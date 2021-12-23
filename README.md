@@ -43,3 +43,7 @@ This program does not replace files if these already exists in subdirectory name
 If you want this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com)
 
 If you want other programs [Contact Me](mailto:grimo.sergiy@icloud.com) or check on my profile if it does'not already exsist.
+
+## Tips
+
+If you want costumize the program please [Contact Me](mailto:grimo.sergiy@icloud.com), I am not responsible for all the changes
