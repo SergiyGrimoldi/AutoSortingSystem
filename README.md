@@ -25,7 +25,7 @@ This program organizes automatically files in folders named as file's extension
     - `os` is installed
     - `pathlib` is installed
     - `easygui` is installed
- 5. And if are not installed:
+ 5. And if are not installed you must install these digiting:
 
         pip3 install `module's name`
  6. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
