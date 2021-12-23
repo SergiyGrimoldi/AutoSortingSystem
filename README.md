@@ -21,4 +21,4 @@ This program does not replace files if these already exists in subdirectory name
 
 If you wont this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com)
 
-If you wnat other programs [Contact Me](mailto:grimo.sergiy@icloud.com)
+If you wnat other programs [Contact Me](mailto:grimo.sergiy@icloud.com) or check on my profile if it does'not already exsist.
