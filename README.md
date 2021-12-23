@@ -19,4 +19,5 @@ This program gets all file in directory choosen, automatically gets the extensio
 
 This program does not replace files if these already exists in subdirectory named as extension of files found.
 
-If you wont this feature [Contact Me](mailto:grimo.sergiy@icloud.com)
+If you wont this feature or other [Contact Me](mailto:grimo.sergiy@icloud.com)
+If you wnat other programs [Contact Me](mailto:grimo.sergiy@icloud.com)
