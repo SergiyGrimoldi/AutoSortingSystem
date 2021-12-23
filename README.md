@@ -13,10 +13,10 @@ This program organizes automatically files in folders named as file's extension
 
  3. Open `terminal` 
  
-           > cd ./directory
+            cd ./directory
       or `cmd` 
       
-           > dir ./directory
+            dir ./directory
            
 
       and goto directory where you've saved folder downloaded containing this program
