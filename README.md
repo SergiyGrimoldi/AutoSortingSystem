@@ -12,9 +12,13 @@ This program organizes automatically files in folders named as file's extension
 
 
  3. Open `terminal` 
+ 
            > cd ./directory
       or `cmd` 
+      
            > dir ./directory
+           
+
       and goto directory where you've saved folder downloaded containing this program
 
  3. Run python file with command-line or with your code editor digiting: 
