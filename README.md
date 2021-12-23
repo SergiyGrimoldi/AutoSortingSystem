@@ -25,6 +25,11 @@ This program organizes automatically files in folders named as file's extension
       
          python3 main.py
 
+ 4. If program doesn't works well probably you don't have modules installed so check if:
+    - `shutil` is installed
+    - `os` is installed
+    - `pathlib` is installed
+    
 ## How program works
 
 This program gets all file in directory choosen, automatically gets the extension of these, check if exists a folder named as file extension;
