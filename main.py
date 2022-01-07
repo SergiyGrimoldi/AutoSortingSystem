@@ -1,53 +1,46 @@
-import shutil # per gestire lo spostamento e la creazione di directory
-import os # per gestire il sistema operativo
-import pathlib # per gestire le directory
-import easygui # per ask open dir
-from typing import Counter # per counter
+import os
+import shutil
+import colorama
+from colorama import Fore, init, Back, Style
+import easygui
+init(autoreset=True)
 
 
-def clear(): # ripulisce terminale
-    if os.name == 'nt': # se dispositivo su cui lavora il programma è windows
-        os.system('cls') # cancella scritte da cmd
-    else:
-        os.system('clear') # cancella scritte da terminale
+title  =(Style.BRIGHT + Back.WHITE + Fore.RED + "Automatic Sorting System - By Sergiy Grimoldi ")+"\n"
+footer = "\n"+(Style.BRIGHT + Back.WHITE + Fore.RED + 'Goodbye from Automatic Sorting System by Sergiy Grimoldi')+"\n"
 
 
-def divide(): ## Qui parte la funzione di smistamento automatico
-    clear() # ripulisco linea di comando
-    
-    if os.name == 'nt': # se dispositivo su cui lavora il programma è windows
-        print("\n\n\n ------------------------- Benvenuto nel sitema automatico di smistamento file creata da Sergiy Grimoldi - Welcome to Auto Sorting System by Sergiy Grimoldi -------------------------\n\n\n") # Titolo
-        print("Sistema operativo - OS:\n - Windows\n") # sistema operativo sul quel lavoro
-    
-    else:
-        print("\n\n\n ------------------------- Benvenuto nel sitema automatico di smistamento file creata da Sergiy Grimoldi - Welcome to Auto Sorting System by Sergiy Grimoldi -------------------------\n\n\n") # Titolo
-        print("Sistema operativo - OS:\n - Unix\n") # sistema operativo sul quel lavoro
+def clear():
+    try:
+        os.system('clear') # Clear the screen of unix system
+    except:
+        os.system('cls') # Clear the screen of windows system
+    finally:
+        None
 
-    directory_to_scan =  easygui.diropenbox()## da modificare in base alla direcotry che si vuole riordinare
-  
-    if directory_to_scan == "/Your/Full/Directory/To/Scan": # controllo se la dirctory da analizzare è stata settata correttamente
-        print("Prima configura il programma scegliendo una directory da scansionare e riordinare (Linea 25 nel codice) - Firts choose directory to scan and sort (Line 25 in code)") # stampa di info
-        exit() # esco dal programma 
+def main():
+    print (title) # Print title of the program set at line 8
+    ## Start of  program
 
-    print(f"\nDirectory scelta - Choosen directory: \n - {directory_to_scan}\n") # stampo la direcotry scelta da scansionare (questa è quella da riordinare)
+    directory_to_scan =  easygui.diropenbox()
+    print(f"\nDirectory scelta - Choosen directory: \n -  {directory_to_scan}\n") # stampo la direcotry scelta da scansionare (questa è quella da riordinare)
 
-    print(f" ----------- Cerco Files - Serching for files ----------- \n") # stampo sottotitolo di controllo
+
+    print(Style.BRIGHT + Back.WHITE + Fore.BLACK + f" ----------- Cerco Files - Serching for files ----------- \n") # stampo sottotitolo di controllo
     count_done = 0 # inizializzo count dei file smistati correttamente
     count_undone = 0 # inizializzo count dei file non smistati correttamente
     count_file = 0 # inizializzo count dei file trovati nella direcotry scelta da scansionare
     files = [] # apro una lista contentente tutti i file trovati (solo nome ed estensione )
-    for file in os.scandir(directory_to_scan): # ciclo i file contenuti nella scansione eseguita con os.scandir
-        if file.is_file(): # se il file è un file continuo
-            file=(file.name) # attribuisco al nome del file la variabile file
-            print(f" - {file}") # stampo il risultato
-            files.append(file) # aggiungo il nome del file con estensione all alista precedentemnte creata per poterci lavorare succesivamente
-            count_file+=1 # aggiorno il count dei file trovati
-
-    print(f"\n ----------- Fine Files trovati - Files found {count_file} ----------- \n") # stampo footer di controllo
-
-    
-    
-    print(f"\n------------------------- Inizio trasferimento utomatico - Starting automated sorting -------------------------\n") # stampo sottotitlo di controllo
+    try:
+        for file in os.scandir(directory_to_scan): # ciclo i file contenuti nella scansione eseguita con os.scandir
+            if file.is_file(): # se il file è un file continuo
+                file=(file.name) # attribuisco al nome del file la variabile file
+                print(f" - {file}") # stampo il risultato
+                files.append(file) # aggiungo il nome del file con estensione all alista precedentemnte creata per poterci lavorare succesivamente
+                count_file+=1 # aggiorno il count dei file trovati
+        print(Style.BRIGHT + Back.WHITE + Fore.BLACK + f"\n ----------- Fine Files trovati - Files found {count_file} ----------- \n") # stampo footer di controllo
+    except:
+        print(Style.BRIGHT + Back.WHITE + Fore.RED + f" - Nessuna cartella trovata con il nome {directory_to_scan}")
     
     count_file = 0 # azzero nuovaente count (ora conta i file contenuti in lista files)
     for file in files: # ciclo per ogni file contenuto nella lista
@@ -86,8 +79,20 @@ def divide(): ## Qui parte la funzione di smistamento automatico
                 count_undone+=1 # aggiorno count dei file non smistati correttamente
         print(f"\n --------------- {file} ---------------\n\n") # stampa di controllo
 
-    print(f"\n------------------------- Log -> Eseguiti - Done: {count_done} - Gia esistenti - Already exists: {count_undone} -------------------------\n") # sottotilo di log
-    print(f"\n\n\n ------------------------- Arrivederci dal sitema automatico di smistamento file creata da Sergiy Grimoldi ({count_file}) - Goodbye form Auto Sorting System by Sergiy Grimoldi -------------------------\n\n\n") # chiusura
-   
+    print(Style.BRIGHT + Back.WHITE + Fore.BLACK + f"\n --------------- Eseguiti - Done: {count_done} - Gia esistenti - Already exists: {count_undone} ---------------\n") # sottotilo di log
 
-divide() # parte il programma
+    
+
+
+    ## And of  program
+    print(footer) # Print footer of the program set at line 9
+
+
+
+    
+    
+        
+
+
+clear()
+main()
