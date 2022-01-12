@@ -21,10 +21,7 @@ To run file  `main.py`
          python3 main.py
 
  3. If program doesn't works well probably you don't have modules installed so check if:
-    - `shutil` is installed
-    - `os` is installed
-    - `pathlib` is installed
-    - `easygui` is installed
+    - external modules are installed
  4. And if are not installed you must install these digiting:
 
         pip3 install -r reuirements.txt
