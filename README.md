@@ -27,7 +27,8 @@ To run file  `main.py`
     - `easygui` is installed
  4. And if are not installed you must install these digiting:
 
-        pip3 install `module's name`
+        pip3 install -r reuirements.txt
+        
  5. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
     
 ## How program works
