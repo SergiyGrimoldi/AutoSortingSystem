@@ -1,4 +1,4 @@
-# **Auto Sorting System by Sergiy Grimoldi - V.0.0.2**
+# **Auto Sorting System by Sergiy Grimoldi - V.0.0.4**
 
 This program organizes automatically files in folders named as file's extension 
 
@@ -18,7 +18,7 @@ To run file  `main.py`
 
  2. Run python file with command-line or with your code editor digiting: 
       
-         python3 main.py
+         sudo python3 main.py
 
  3. If program doesn't works well probably you don't have modules installed so check if:
     - external modules are installed
