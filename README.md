@@ -18,13 +18,13 @@ To run file  `main.py`
 
  2. Run python file with command-line or with your code editor digiting: 
       
-         sudo python3 main.py
+         sudo python3 main.py < Use Sudo if you know what is >
 
  3. If program doesn't works well probably you don't have modules installed so check if:
     - external modules are installed
  4. And if are not installed you must install these digiting:
 
-        pip3 install -r reuirements.txt
+        pip3 install < module's name >
         
  5. If program continues not working [Contact Me](mailto:grimo.sergiy@icloud.com)
     
